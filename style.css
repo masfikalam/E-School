@@ -2,8 +2,15 @@ html {
     scroll-behavior: smooth;
 }
 
+
+/* similar css */
+
 .round-border {
     border-radius: 20px;
+}
+
+section {
+    padding: 80px 0;
 }
 
 
@@ -21,6 +28,11 @@ nav ul li a {
     font-size: 18px;
     color: #000;
     font-weight: bold;
+    border-bottom: 3px solid transparent;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px solid #28a745;
 }
 
 
@@ -31,40 +43,66 @@ header {
     background-color: #e3fff3;
 }
 
-header p {
-    color: #ff5858;
-    font-weight: bold;
-}
-
 header h1 {
     font-size: 56px;
     font-weight: bold;
 }
 
-header h1 span {
-    color: #28a745;
-}
-
-header h6 {
-    color: #707070;
-    margin-top: 50px;
-    text-align: justify;
-}
-
 
 /* catagories css */
-
-#catagories {
-    padding: 100px 0;
-}
 
 #catagories .box {
     background-color: #e3fff3;
     border-radius: 20px;
     box-shadow: 0 5px 10px 1px lightgrey;
     padding-top: 30px;
+    animation: popup 1s linear;
 }
 
 #catagories .box:hover {
     box-shadow: 0 5px 10px 5px lightgrey;
+}
+
+@keyframes popup {
+    from {
+        transform: rotateX(90deg);
+    }
+    to {
+        transform: none;
+        transition: 2s ease-out;
+    }
+}
+
+
+/* courses area */
+
+#courses h1 {
+    font-weight: bold;
+    border-bottom: 3px solid #28a745;
+}
+
+#courses .card {
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 10px 1px lightgrey;
+}
+
+#courses .card:hover {
+    transform: scale(0.95);
+    transition: .2s ease-out;
+}
+
+
+/* testimonial css */
+
+#testimonial h1 {
+    font-weight: bold;
+    border-bottom: 3px solid #28a745;
+}
+
+#testimonial .carousel-indicators li {
+    background-color: #28a745;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
 }
