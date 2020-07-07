@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.highlight {
+.round-border {
     border-radius: 20px;
 }
 
@@ -10,7 +10,7 @@ html {
 /* nav css */
 
 nav {
-    background-color: #d2ffec94;
+    background-color: #e3fff3;
 }
 
 nav ul li {
@@ -28,7 +28,7 @@ nav ul li a {
 
 header {
     padding: 100px 0;
-    background-color: #d2ffec94;
+    background-color: #e3fff3;
 }
 
 header p {
@@ -48,4 +48,23 @@ header h1 span {
 header h6 {
     color: #707070;
     margin-top: 50px;
+    text-align: justify;
+}
+
+
+/* catagories css */
+
+#catagories {
+    padding: 100px 0;
+}
+
+#catagories .box {
+    background-color: #e3fff3;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 1px lightgrey;
+    padding-top: 30px;
+}
+
+#catagories .box:hover {
+    box-shadow: 0 5px 10px 5px lightgrey;
 }
