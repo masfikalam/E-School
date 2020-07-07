@@ -1,0 +1,51 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.highlight {
+    border-radius: 20px;
+}
+
+
+/* nav css */
+
+nav {
+    background-color: #d2ffec94;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
+
+
+/* header css */
+
+header {
+    padding: 100px 0;
+    background-color: #d2ffec94;
+}
+
+header p {
+    color: #ff5858;
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+header h1 span {
+    color: #28a745;
+}
+
+header h6 {
+    color: #707070;
+    margin-top: 50px;
+}
