@@ -112,3 +112,14 @@ header h1 {
     width: 10px;
     border-radius: 50%;
 }
+
+
+/* footer css */
+
+footer {
+    padding-top: 80px;
+}
+
+footer h1 {
+    font-weight: bold;
+}
