@@ -101,6 +101,11 @@ header h1 {
 
 /* about area */
 
+#about {
+    background-color: #e3fff3;
+    padding-bottom: 60px;
+}
+
 #about h1 {
     font-weight: bold;
     border-bottom: 3px solid #28a745;
@@ -117,16 +122,37 @@ header h1 {
 @keyframes grow {
     from {
         transform: perspective(1000px) rotateY(-25deg);
-        filter: drop-shadow(15px 0px 2px lightgray);
+        filter: drop-shadow(15px 0px 2px #929292);
     }
     to {
         transform: perspective(1000px) rotateY(25deg);
-        filter: drop-shadow(-15px 0 2px lightgray);
+        filter: drop-shadow(-15px 0 2px #929292);
     }
 }
 
 
+/* admission css */
+
+#admission h1 {
+    font-weight: bold;
+    border-bottom: 3px solid #28a745;
+}
+
+#admission form {
+    background-color: #e3fff3;
+}
+
+#admission .nav-tabs {
+    border-bottom: none;
+}
+
+
 /* testimonial css */
+
+#testimonial {
+    background-color: #e3fff3;
+    padding: 60px 0;
+}
 
 #testimonial h1 {
     font-weight: bold;
