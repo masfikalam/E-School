@@ -32,6 +32,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+    color: #000;
     border-bottom: 3px solid #28a745;
 }
 
@@ -90,6 +91,11 @@ header h1 {
 #courses .card:hover {
     transform: scale(0.95);
     transition: .2s ease-out;
+}
+
+#courses .card-footer {
+    background-color: transparent;
+    border-top: none;
 }
 
 
